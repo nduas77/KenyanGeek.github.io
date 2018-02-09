@@ -1,0 +1,144 @@
+/* Note: you don't need this body styling. It is purely for example purposes */
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro|Open+Sans:300);
+
+*, *:before, *:after { @include box-sizing(border-box) }
+
+
+body{
+  font-family: Open Sans, sans-serif;
+	font-size: 60px;
+	font-style: bold;
+	text-align: center;
+ 
+}
+
+a {
+  color: #4285f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+
+/* Side By Side */
+
+ul.fm-medium-embed {
+  list-style: none;
+	font-size: 0px;
+  margin-left: -2.5%;
+  
+}
+
+ul.fm-post-wrapper li {
+  display: inline-block;
+  border-radius: 3px;
+	padding: 1.5em;
+  width: 400px;
+	margin: 0 0 2.5% 2.5%;
+	background: #fff;
+	border: 1px solid #eee;
+	font-size: 16px;
+	font-size: 1rem;
+	vertical-align: top;
+	box-shadow: 0 0 6px #eee;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+
+
+
+.fm-post-read-more{
+  text-align: center;
+  width: 20%;
+  border: none;
+  background: #36B3A8;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 0.7em;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 15px 8px 15px;
+
+
+}
+
+.fm-post-read-more:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.fm-post-image{
+  max-width: 100%;
+  margin: 0 0 10px;
+  height: 300px;
+  width: 500px;
+}
+
+
+
+.fm-post-title{
+  margin: 0.6em 0 0.6em;
+  text-align: left!important;
+  font-family: Source Sans Pro, sans-serif;
+  color: #333;
+  font-size: 1.1em;
+}
+
+.fm-post-sub-title{
+  margin: 0.6em 0 1.3em;
+	font-size: .9em;
+	line-height: 1.5em;
+	color: #8c8c8c;
+  text-align: left!important;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+}
+
+.fm-medium-profile{
+  margin-top: 10px;
+  padding: 5px;
+  display: block;
+}
+
+.fm-medium-profile a{
+  display: inline-block;
+  background: #fff;
+  padding: 15px;
+  border-radius: 3px;
+  border: 2px solid #4285f4;
+  box-shadow: 0 3px 15px rgba(0,0,0,0.15);
+  
+}
+
+
+ul.fm-medium-embed.columns-2 li {
+	width: 37%;
+}
+/*Header and Footer Styling*/
+
+
+
+
+@media (max-width: 480px) {
+	ul.grid-nav li {
+		display: block;
+		margin: 0 0 5px;
+	}
+	ul.grid-nav li a {
+		display: block;
+	}
+	ul.blog-post {
+		margin-left: 0;
+	}
+	ul.blog-post li {
+		width: 100% !important;
+		margin: 0 0 20px;
+	}
+}
+
+footer{
+	font-family: Open Sans, sans-serif;
+	text-align: center;
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Theme Made By www.w3schools.com - No Copyright -->
+  <title>Njoroge wa Chege Website</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="https://use.fontawesome.com/6fb71f37e0.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 2.0;
+      color: #f5f6f7;
+  }
+p {
+    font-size: 16px;
+  }
+  
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+
+  .bg-1 { 
+    height: 600px; 
+       background-image: url("kid.jpg"); 
+       background-size: cover;
+       background-position: right bottom;
+  }
+  .bg-2 { 
+    height: 600px; 
+       background-image: url("pencil.jpg"); 
+       background-size: cover;
+  }
+  .bg-3 { 
+    height: 600px; 
+       background-image: url("writer.jpg"); 
+       background-size: cover;
+  }
+  .bg-4 { 
+    height: 600px; 
+       background-image: url("travel.jpg"); 
+       background-size: cover;
+  }
+  .bg-5 { 
+    padding: 3cm;
+    background-color: #2f2f2f; /* Black Gray */
+    color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  object-fit: cover;
+  width: auto;
+  height: 400px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .7s ease;
+  background-color: #1abc9c;
+  background: linear-gradient(
+                     rgba(20,20,20, .5), 
+                     rgba(20,20,20, .5));
+}
+
+.container:hover .overlay {
+  opacity: 50;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+   transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.red {color:red;}
+.btn-round-lg{
+border-radius: 22.5px;
+font-size: 16px;
+}
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default ">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="index.html">Personal Website</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="about.html">About</a></li>
+        <li><a href="https://medium.com/@chegeherman">Blog</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="travel.html">Travel</a></li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+ 
+
+<!-- Second Container -->
+<div class="row">
+<div class="col-sm-6 container bg-1">
+    
+    <div class="overlay">
+      <div class="text"><h2>About</h2>
+        <kbd>About a goofy stary eyed African boy who became a scientist, travelled the world and then discovered  <code> code </code> </kbd><br>
+        <a href="#About" class="btn btn-primary btn-round-lg">
+          <span class="glyphicon glyphicon-eye-open"></span> Learn More
+        </a></div>
+    </div>
+  
+  </div>
+
+
+<!-- Third Container -->
+
+<div class="col-sm-6 container bg-2">
+    
+    <div class="overlay">
+      <div class="text">
+    
+        <h2>Blog</h2>
+        <kbd>Rants, Hogwash, Opinionation and a pinch of genius </kbd><br>
+        <a href="#" class="btn btn-primary btn-round-lg">
+          <i class="fa fa-newspaper-o" aria-hidden="true"></i> Read
+        </a>
+  
+      </div>
+    </div>
+  
+  </div>
+
+</div>
+ <!-- Fourth Container -->
+ <div class="row">
+
+ <div class="col-sm-6 container bg-3">
+    
+    <div class="overlay">
+      <div class="text">
+        <h1 class="margin">CV</h1>
+        <kbd>Real Life CV of a self confessed polymath </kbd><br>
+        <a href="cv.html" class="btn btn-primary btn-round-lg">
+          <i class="fa fa-book" aria-hidden="true"></i> View
+        </a>
+      </div>
+    </div>
+  
+  </div>
+
+ <!-- Fifth Container (Grid) -->
+ <div class="col-sm-6 container bg-4">
+    
+    <div class="overlay">
+      <div class="text">  
+          <h1 class="margin">Travel</h1>
+          <kbd>A geographical representation of my international adventures </kbd><br>
+          <a href="cv.html" class="btn btn-primary btn-round-lg">
+            <i class="fa fa-internet-explorer" aria-hidden="true"></i> Explore
+          </a>
+        </div>
+      </div>
+    
+    </div>
+
+  </div>
+  
+
+<!-- Footer -->
+<footer class="container-fluid bg-5 text-center col-sm-12">
+  <kbd>Made in Kenya with <i class="fa fa-heart red " aria-hidden="true"></i> by <a href="https://www.magnumdigitalke.com"> www.magnumdigitalke.com</a></kbd> 
+</footer>
+
+</body>
+</html>
