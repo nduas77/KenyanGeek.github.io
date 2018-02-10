@@ -2,7 +2,7 @@
 ## This is my Personal Website with:
 
 
-*About me
+* About me
 *Experience 
 *Education
 *Skills
