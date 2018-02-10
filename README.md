@@ -1,10 +1,10 @@
 # My Personal Website
-## This is my Personal Website with:
+This is my Personal Website with:
 
 
 * About me
-*Experience 
-*Education
-*Skills
-*Travel
-*Blog
+* Experience 
+* Education
+* Skills
+* Travel
+* Blog
