@@ -1,5 +1,5 @@
 # My Personal Website
-This is my Personal Website
+This is my Personal Website that lists my experiences,  education, goals,interests and skills.
 
 Click Here to go to Website (https://kenyangeek.github.io/)
 
