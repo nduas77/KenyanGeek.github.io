@@ -1,9 +1,9 @@
 # Personal Website
 This is a personal website listing my experiences,  education, goals, interests and skills.
 
-Click Here to go to Website (https://kenyangeek.github.io/)
+It can be found here: (https://kenyangeek.github.io/)
 
-It list my information including 
+The information included is:
 
 * About me
 * Experience 
